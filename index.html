@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <main id="main" class="relative min-h-screen flex flex-col justify-between overflow-hidden ">
+    <div id="logo" class="px-4 w-full flex justify-between my-6 ">
+      <img class="w-[260px]" src="https://backstagetalks.com/img/logo.png" alt="Site logo">
+      <div class="" id="email">
+        <a class="hidden md:inline font-bold text-lg hover:underline" href="#">info@backstagetalks.com</a>
+      </div>
+    </div>
+
+
+    <div class="relative md:absolute inset-0 transition duration-700 ease-in-out -z-10" id="scroll">
+
+      <div data-index="0" class="w-full h-full flex flex-col justify-center items-center mb-32 md:mb-0">
+        <img class="w-96" src="https://backstagetalks.com/img/backstagetalks_cover_issue_6.png"
+          alt="backstagetalks_cover_issue_6">
+        <div class="w-fit text-center text-lg font-bold">
+          <p class="py-4">Issue #6</p>
+          <p class="py-2 text-copper cursor-pointer hover:underline">BUY HERE</p>
+          <p>or in <span class="text-copper cursor-pointer hover:underline">selected stores.</span></p>
+        </div>
+      </div>
+
+
+      <div data-index="1" class="w-full h-full flex flex-col justify-center items-center mb-32 md:mb-0">
+        <img class="w-96" src="https://backstagetalks.com/img/backstagetalks_cover_issue_5.png"
+          alt="backstagetalks_cover_issue_6">
+        <div class="w-fit text-center text-lg font-bold">
+          <p class="py-4">Issue #5</p>
+          <p class="py-2 md:text-white cursor-pointer hover:underline">BUY HERE</p>
+          <p>or in <span class="md:text-white cursor-pointer hover:underline">selected stores.</span></p>
+        </div>
+      </div>
+
+
+      <div data-index="2" class="w-full h-full flex flex-col justify-center items-center mb-32 md:mb-0">
+        <img class="w-96" src="https://backstagetalks.com/img/backstagetalks_cover_issue_4.png"
+          alt="backstagetalks_cover_issue_6">
+        <div class="w-fit text-center text-lg font-bold">
+          <p class="py-4">Issue #4</p>
+          <p class="py-2 md:text-white cursor-pointer hover:underline">BUY HERE</p>
+          <p>or in <span class="md:text-white cursor-pointer hover:underline">selected stores.</span></p>
+        </div>
+      </div>
+
+
+      <div data-index="3" class="w-full h-full flex flex-col justify-center items-center mb-32 md:mb-0">
+        <img class="w-96" src="https://backstagetalks.com/img/backstagetalks_cover_issue_3.png"
+          alt="backstagetalks_cover_issue_6">
+        <div class="w-fit text-center text-lg font-bold">
+          <p class="py-4">Issue #3</p>
+          <p class="py-2 md:text-white cursor-pointer hover:underline">BUY HERE</p>
+          <p>or in <span class="md:text-white cursor-pointer hover:underline">selected stores.</span></p>
+        </div>
+      </div>
+
+
+      <div data-index="4" class="w-full h-full flex flex-col justify-center items-center">
+        <img class="w-96" src="https://backstagetalks.com/img/backstagetalks_cover2017.png"
+          alt="backstagetalks_cover_issue_6">
+        <div class="w-fit text-center text-lg font-bold">
+          <p class="py-4">Issue #2</p>
+          <p class="py-2 md:text-white cursor-pointer hover:underline">BUY HERE</p>
+          <p>or in <span class="md:text-white cursor-pointer hover:underline">selected stores.</span></p>
+        </div>
+      </div>
+
+
+      <div data-index="5" class="w-full h-full flex flex-col justify-center items-center">
+        <img class="w-96" src="https://backstagetalks.com/img/backstagetalks_cover2016_n.png"
+          alt="backstagetalks_cover_issue_6">
+        <div class="w-fit text-center text-lg font-bold">
+          <p class="py-4">Issue #1</p>
+          <p class="py-2 md:text-white cursor-pointer hover:underline">BUY HERE</p>
+          <p>or in <span class="md:text-white cursor-pointer hover:underline">selected stores.</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer" class="px-4 items-end flex justify-center md:justify-between text-center md:text-start  py-4">
+
+      <div class="max-w-xs">
+        <p class="font-bold text-lg leading-6 py-2">Backstage Talks is a magazine of casual, but in
+          depth
+          dialogues on
+          design
+          and
+          business. Our
+          decisions shape
+          and
+          influence this complex world—to have a chance to make the right ones, we need to talk.</p>
+        <p class="text-xs pb-6">© 2023 <a href="#" class="underline"> Published by studio Milk</a></p>
+        <a href="#" class="font-bold text-lg underline">Privacy Policy</a>
+      </div>
+      <div>
+        <ul class="hidden h-full md:flex flex-col md:justify-end">
+          <li class="py-1 hover:underline text-md cursor-pointer">Issue #6</li>
+          <li class="py-1 hover:underline text-md cursor-pointer">Issue #5</li>
+          <li class="py-1 hover:underline text-md cursor-pointer">Issue #4</li>
+          <li class="py-1 hover:underline text-md cursor-pointer">Issue #3</li>
+          <li class="py-1 hover:underline text-md cursor-pointer">Issue #2</li>
+          <li class="py-1 hover:underline text-md cursor-pointer">Issue #1</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <!-- <div class="hidden bg-copper bg-golden bg-red bg-orange bg-blue bg-white"></div> -->
+  <script>
+    const colors = ['white', 'copper', 'orange', 'golden', 'blue', 'red']
+    const scroll = document.getElementById("scroll");
+    const main = document.getElementById("main");
+    const scrollItems = document.querySelectorAll("[data-index]");
+
+    const len = scroll.childElementCount;
+    let currnetIndex = 0;
+
+
+    window.addEventListener('wheel', (e) => {
+      if (e.wheelDelta < 0) {
+        if (currnetIndex == len - 1) return;
+        currnetIndex = currnetIndex + 1;
+        scroll.style.transform = `translateY(-${currnetIndex}00%)`;
+        scrollItems[currnetIndex].classList.add(`transition`);
+        scrollItems[currnetIndex].classList.add(`bg-${colors[currnetIndex]}`);
+
+      } else {
+        if (currnetIndex == 0) return;
+        currnetIndex = currnetIndex - 1;
+        scroll.style.transform = `translateY(-${currnetIndex}00%)`;
+      }
+    });
+
+  </script>
+</body>
+
+</html>
